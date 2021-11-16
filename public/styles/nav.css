@@ -19,3 +19,22 @@
 .fas {
   color: red
 }
+
+.nameAndAvatar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  display: flex;
+  position: absolute;
+}
+
+.name {
+  display: flex;
+  position: relative;
+  color: blue;
+  font-family: Bungee;
+}

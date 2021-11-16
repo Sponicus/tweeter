@@ -12,7 +12,11 @@
     <!-- External CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css" />
     
+    <!-- Nav CSS -->
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
+
+    <!-- Header CSS -->
+    <link rel="stylesheet" href="/styles/header.css" type="text/css" />
 
     <!-- App CSS -->
     <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
@@ -26,15 +30,26 @@
 
   <body>
     <!-- Top nav bar (fixed) -->
-    <nav>
-      <div class="nav">
-        <span>tweeter</span>
-        <div class="newTweet">
-          <span>new tweet here</span>
-          <i class="fas fa-angle-double-down"></i>
+    <div class="constainter">
+      <nav>
+        <div class="nav">
+          <span>tweeter</span>
+          <div class="newTweet">
+            <span>new tweet here</span>
+            <i class="fas fa-angle-double-down"></i>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+      <header class="nameAndAvatar">
+        <div>
+            <img class="avatar" src="/images/profile-hex.png"> 
+        </div>
+        <br>
+        <div>
+            <h2 class="name">Your Name</h2>
+        </div>
+      </header>
+    </div>
 
     <!-- Page-specific (main) content here -->
     <main class="container"></main>
