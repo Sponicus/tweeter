@@ -1,0 +1,46 @@
+.new-tweet {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottomTweet {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  background: #4056a1;
+  background-image: linear-gradient(top, #4056a1, #2980b9);
+  background-image: linear-gradient(to top, #4056a1, #2980b9);
+  font-family: Bungee;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+}
+
+.button:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(top, #3cb0fd, #4056a1);
+  background-image: linear-gradient(to top, #3cb0fd, #4056a1);
+}
+
+#tweet-text {
+  background-color: #11ffef00;
+  border-bottom: 0.1em black solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+}
+
+#tweet-text:focus {
+  outline: none;
+}
+
+.counter {
+  font-family: Bungee;
+}

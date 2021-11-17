@@ -4,8 +4,8 @@
   flex-direction: row;
   align-items: center;
   height: 120px;
-  background-color: #4056A1;
-  color: #FFFFFF;
+  background-color: #4056a1;
+  color: #ffffff;
   font-family: Bungee;
   padding-inline: 1.5em;
 }
@@ -17,7 +17,7 @@
 }
 
 .fas {
-  color: red
+  color: red;
 }
 
 .nameAndAvatar {
@@ -29,12 +29,12 @@
 
 .avatar {
   display: flex;
-  position: absolute;
+  position: relative;
 }
 
 .name {
   display: flex;
   position: relative;
-  color: blue;
+  color: #545149;
   font-family: Bungee;
 }
