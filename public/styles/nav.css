@@ -1,27 +1,29 @@
-.nav {
+.navbar {
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
   align-items: center;
   height: 120px;
   background-color: #4056a1;
   color: #ffffff;
-  font-family: Bungee;
-  padding-inline: 1.5em;
+  padding: 0 1em;
   position: fixed; 
   top: 0; 
   width: 100%;
   z-index: 9001;
 }
 
-.newTweet {
+.navbar-brand {
+  font-family: Bungee;
+}
+
+.navbar-new-tweet {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
-.fas {
+.navbar-new-tweet i {
+  transform: translateY(-1em);
   color: red;
 }
-
-
