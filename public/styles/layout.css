@@ -35,17 +35,6 @@ main {
   flex-direction: column;
 }
 
-article.tweet {
-  border: 0.1em solid black;
-}
-
-article.tweet header {
-  display: flex;
-  justify-content: space-between;
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .user {
   display: flex;
@@ -84,10 +73,26 @@ i.fas.fa-heart {
 i.fas.fa-heart:hover {
   color: yellow;
 }
+
+article.tweet {
+  border: 0.1em solid black;
+  margin: 1em 0;
+}
+
+article.tweet header {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 article.tweet p {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  
 }
 
 article.tweet footer {
