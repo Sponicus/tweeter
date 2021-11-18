@@ -24,6 +24,8 @@
     
     <!-- New Tweet CSS -->
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
+    <!-- Tweets Container CSS -->
+    <link rel="stylesheet" href="/styles/tweets-container.css" type="text/css" />
  
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -56,17 +58,15 @@
     <!-- Page-specific (main) content here -->
     <main class="container">
       <section class="new-tweet">
-        <h2>Compose Tweet</h2>
-        <form id="post-tweet" method="POST" action="/tweets">
-          <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
-          <div class="bottomTweet">
-            <button class="button" type="submit">Tweet</button>
-            <output name="counter" class="counter" for="tweet-text">140</output>
+        <form id="tweet-form" method="POST" action="/tweets">
+          <textarea name="text" id="tweet-form-text" placeholder="What are you humming about?"></textarea>
+          <div class="tweet-form-footer">
+            <button class="tweet-form-button" type="submit">Tweet</button>
+            <p class="tweet-form-counter">140</p>
           </div>
         </form>
       </section>
-      <section id="tweets-container" class="tweets-container" >
-      </section>
+      <section id="tweets-container"></section>
     </main>
     <script src="/scripts/composer-char-counter.js"></script>
     <script src="/scripts/icon-color-change.js"></script>

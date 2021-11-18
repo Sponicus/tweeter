@@ -82,11 +82,11 @@ $(document).ready(function () {
   };
   loadTweets();
 
-  $("#post-tweet").submit(function(event){
+  $("#tweet-form").submit(function(event){
     // Prevent change of page to /tweets
     event.preventDefault();
     // AJAX Request w/ POST method
-    if (isDataValid($("#tweet-text"))) {
+    if (isDataValid($("#tweet-form-text"))) {
       $.ajax({
         type: "POST",
         url: "/tweets",
@@ -100,11 +100,10 @@ $(document).ready(function () {
   });
 
   const isDataValid = (data) => {
-    console.log(data)
-    if (parseInt($(".counter").val()) <= 0) {
+    if (data.val().length > 140) {
       alert("too many characters");
       return false;
-    } else if (parseInt($(".counter").val()) === 140) {
+    } else if (data.val().length === 0) {
       alert("Message is empty");
       return false;
     }
