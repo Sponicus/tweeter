@@ -35,7 +35,7 @@ main {
   flex-direction: column;
 }
 
-@media (min-width:1170px){
+@media (min-width:1024px){
 
   body {
     display: flex;
