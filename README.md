@@ -4,9 +4,9 @@ Tweeter is a simple, single-page Twitter clone.
 
 This is the finisihed version incorporating some responsive design elements. 
 
-!["screenshot of mobile page"](https://github.com/Sponicus/tinyapp/blob/master/docs/TinyAppURLs.png)
+!["screenshot of mobile page"](https://github.com/Sponicus/tweeter/blob/master/public/docs/mobile-page.png)
 
-!["screenshot of desktop page"](https://github.com/Sponicus/tinyapp/blob/master/docs/TinyAppURLs.png)
+!["screenshot of desktop page"](https://github.com/Sponicus/tweeter/blob/master/public/docs/desktop-page.png)
 
 ## Getting Started
 
