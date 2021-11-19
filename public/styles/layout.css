@@ -21,7 +21,6 @@ body {
   background-color: #ffeac8;
   font-size: 24px;
   font-family: "Source Sans Pro", sans-serif;
-  /* display: flex; */
 }
 
 main {
@@ -34,6 +33,7 @@ main {
   flex-direction: column;
 }
 
+/* for smaller screens */
 @media (min-width:1024px){
 
   body {
@@ -42,7 +42,6 @@ main {
 
   nav.navbar {
     background-color: #4056a1;
-    /* background-image: url("https://www.transparenttextures.com/patterns/dark-leather.png"); */
   } 
   
   .header {
@@ -54,14 +53,10 @@ main {
     width: 50%;
     max-width: 750px;
     height: fit-content;
-
-
   }
 
   main {
     margin: 3em;
   }
   
-
-
 }
