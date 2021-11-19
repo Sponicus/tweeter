@@ -31,7 +31,6 @@ main {
   margin-left: auto;
   margin-right: auto;
   background-color: inherit;
-  /* background-image: url("https://www.transparenttextures.com/patterns/dark-leather.png"); */
   flex-direction: column;
 }
 
@@ -48,8 +47,6 @@ main {
   
   .header {
     flex-grow: 1;
-    /* padding-left: 5em; */
-    /* padding-right: 5em; */
     margin: 5em;
     margin-top: 12.5em;
     padding-left: 2em;
