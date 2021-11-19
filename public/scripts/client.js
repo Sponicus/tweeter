@@ -97,6 +97,7 @@ $(document).ready(function () {
       .then (function() { 
         $(".new-tweet-error").hide();
         $("#tweet-form-text").val("");
+        $(".tweet-form-counter").text("140")
         loadTweets()
       })
     } 
