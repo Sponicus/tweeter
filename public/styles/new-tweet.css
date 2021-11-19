@@ -2,7 +2,15 @@
   width: 100%;
   padding-top: 2em;
 }
+.new-tweet-error {
+  display: none;
+  margin: 1em;
+  padding: 1em;
+  color: red;
+  border: red dashed;
+  align-self: center;
 
+}
 .tweet-form-footer {  
   display: flex;
   justify-content: space-between;
